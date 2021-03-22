@@ -1,19 +1,19 @@
-const button = document.querySelector(".light-on");
+const button = document.querySelector(".light-off");
 console.log(button);
 let changeHandler = function () {
     const elements = document.querySelectorAll(
-        "container, card-body, h1, h2, h3, h4, .normal-text"
+        "body, h1, h2, h3, h4, .normal-text"
     );
     for (let i = 0; i < elements.length; i++);{
         const element = elements[i];
-        element.classList.toggle("light-mode");
+        element.classList.toggle("theme-dark");
     }
 };
 
 
-function lightMode() {
-    const element = document.body;
-    element.classList.toggle("light-mode");
+function myFunction() {
+    const element = document.querySelector(".card-body");
+    element.classList.toggle("dark-mode");
  }
 
 
@@ -21,7 +21,7 @@ function lightMode() {
 
 
 
+// button.addEventListener("click", changeHandler);
+// setInterval(changeHandler, 5000);
 
-
-
-button.addEventListener("click", changeHandler);
+// changeHandler();

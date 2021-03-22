@@ -1,8 +1,4 @@
-.theme-dark{
-    background-color: black;
+.dark-mode {
+    background-color: black  !important;
     color: white;
-}
-
-.container.normal-text{
-    color: white;
-}
+  }

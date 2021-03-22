@@ -1,26 +1,17 @@
 
-body 
-{
-  background: url('../fotos/4KOmgLX.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-color: black;
-}
+body {
+    background: url('../fotos/4KOmgLX.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
 
-.homescreen
-{
+.homescreen{
   position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
   height: 500px;
-}
-
-.light-mode
-{
-  background-color: whitesmoke;
-  color: black;
 }
