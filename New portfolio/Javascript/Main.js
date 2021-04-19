@@ -17,10 +17,6 @@ function myFunction() {
  }
 
 
-
-
-
-
 // button.addEventListener("click", changeHandler);
 // setInterval(changeHandler, 5000);
 
