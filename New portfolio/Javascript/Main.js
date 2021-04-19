@@ -17,6 +17,14 @@ function myFunction() {
  }
 
 
+const Today = new Date();
+const Time = Today.getHours();
+console.log(time);
+getItem(".dark-mode");
+if(time>=20 || time<=7);{}
+
+
+
 // button.addEventListener("click", changeHandler);
 // setInterval(changeHandler, 5000);
 
